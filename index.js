@@ -6,19 +6,15 @@ function destructivelyAppendKitten(name) {
 }
 
 /*
-1) Arrays destructivelyAppendKitten(name) appends a kitten to the end of the kittens array:
-     ReferenceError: destructivelyAppendKitten is not defined
-      at Context.<anonymous> (test/index-test.js:14:7)
+1) Arrays destructivelyAppendKitten(name) appends a kitten to the end of the kittens array
 */
 
-function destructivelyAppendKitten(name) {
+function destructivelyPrependKitten(name) {
   
 }
 
 /*
-  2) Arrays destructivelyPrependKitten(name) prepends a kitten to the beginning of the kittens array:
-     ReferenceError: destructivelyPrependKitten is not defined
-      at Context.<anonymous> (test/index-test.js:21:7)
+  2) Arrays destructivelyPrependKitten(name) prepends a kitten to the beginning of the kittens array
 */
 
 function destructivelyRemoveLastKitten() {
