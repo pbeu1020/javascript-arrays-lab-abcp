@@ -2,38 +2,28 @@ const app = "I don't do much.";
 var kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name) {
- // kittens.push(name); 
+// appends a kitten to the end of the kittens array
+  kittens.push(name); 
+  return kittens;
 }
-
-/*
-1) Arrays destructivelyAppendKitten(name) appends a kitten to the end of the kittens array
-*/
 
 function destructivelyPrependKitten(name) {
- // kittens.unshift(name);   
+// prepends a kitten to the beginning of the kittens array
+  kittens.unshift(name);   
+  return kittens;
 }
-
-/*
-  2) Arrays destructivelyPrependKitten(name) prepends a kitten to the beginning of the kittens array
-*/
 
 function destructivelyRemoveLastKitten() {
- // kittens.pop();   
+// removes the last kitten from the kittens array
+  kittens.pop();
+  return kittens;
 }
-
-/*      
-
-  3) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array
-*/
 
 function destructivelyRemoveFirstKitten() {
- // kittens.shift();   
+// removes the First kitten from the kittens array
+  kittens.shift();   
+  return kittens;
 }
-
-/*      
-
-  4) Arrays destructivelyRemoveFirstKitten() removes the First kitten from the kittens array
-*/
 
 function appendKitten(name) {
 // appends a kitten to the kittens array and returns a new array
