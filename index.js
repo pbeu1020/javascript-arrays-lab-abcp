@@ -43,15 +43,13 @@ function destructivelyAppendKitten(name) {
       at Context.<anonymous> (test/index-test.js:37:7)
 */
 
-function destructivelyAppendKitten(name) {
+function appendKitten(name) {
   
 }
 
 /*      
 
-  5) Arrays appendKitten(name) appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged:
-     ReferenceError: appendKitten is not defined
-      at Context.<anonymous> (test/index-test.js:45:7)
+  5) Arrays appendKitten(name) appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 */
 
 function prependKitten(name) {
