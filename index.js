@@ -1,6 +1,8 @@
 const app = "I don't do much.";
 var kittens = ['Milo', 'Otis', 'Garfield'];
 
+
+
 /*
 1) Arrays destructivelyAppendKitten(name) appends a kitten to the end of the kittens array:
      ReferenceError: destructivelyAppendKitten is not defined
