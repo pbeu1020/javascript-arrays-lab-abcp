@@ -65,15 +65,13 @@ function destructivelyAppendKitten(name) {
       at Context.<anonymous> (test/index-test.js:53:7)
 */
 
-function destructivelyAppendKitten(name) {
+function removeLastKitten() {
   
 }
 
 /*      
 
-  7) Arrays removeLastKitten() removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged:
-     ReferenceError: removeLastKitten is not defined
-      at Context.<anonymous> (test/index-test.js:61:7)
+  7) Arrays removeLastKitten() removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
 */
 
 function removeFirstKitten() {
