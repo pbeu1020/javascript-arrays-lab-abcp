@@ -76,14 +76,12 @@ function destructivelyAppendKitten(name) {
       at Context.<anonymous> (test/index-test.js:61:7)
 */
 
-function destructivelyAppendKitten(name) {
+function removeFirstKitten() {
   
 }
 
 /*      
 
-  8) Arrays removeFirstKitten() removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged:
-     ReferenceError: removeFirstKitten is not defined
-      at Context.<anonymous> (test/index-test.js:69:7)
+  Arrays removeFirstKitten() removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
 
 */
