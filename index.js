@@ -21,26 +21,22 @@ function destructivelyAppendKitten(name) {
       at Context.<anonymous> (test/index-test.js:21:7)
 */
 
-function destructivelyAppendKitten(name) {
+function destructivelyRemoveLastKitten() {
   
 }
 
 /*      
 
-  3) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array:
-     ReferenceError: destructivelyRemoveLastKitten is not defined
-      at Context.<anonymous> (test/index-test.js:29:7)
+  3) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array
 */
 
-function destructivelyAppendKitten(name) {
+function destructivelyRemoveFirstKitten() {
   
 }
 
 /*      
 
-  4) Arrays destructivelyRemoveFirstKitten() removes the First kitten from the kittens array:
-     ReferenceError: destructivelyRemoveFirstKitten is not defined
-      at Context.<anonymous> (test/index-test.js:37:7)
+  4) Arrays destructivelyRemoveFirstKitten() removes the First kitten from the kittens array
 */
 
 function appendKitten(name) {
